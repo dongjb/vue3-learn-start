@@ -7,4 +7,6 @@ import router from './router';
 import store from './store';
 import App from './App.vue';
 
+vx = 1;
+
 createApp(App).use(router).use(store).use(ElementPlus).mount('#app');
