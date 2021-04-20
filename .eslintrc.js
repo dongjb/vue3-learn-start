@@ -19,6 +19,9 @@ module.exports = {
         props: true,
         ignorePropertyModificationsFor: ['state']
       }
-    ]
+    ],
+    'import/extensions': 0, // 取消文件扩展名验证
+    'import/no-unresolved': 0, // 取消自动解析路径
+    'import/prefer-default-export': 0
   }
 };

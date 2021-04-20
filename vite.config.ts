@@ -1,3 +1,5 @@
+/* eslint import/no-extraneous-dependencies: ["error", {"devDependencies": true}] */
+
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import { resolve } from 'path';

@@ -12,6 +12,7 @@
 <script lang="ts">
 import { defineComponent, computed } from 'vue';
 import { useStore } from 'vuex';
+import { log } from './utils/utils';
 import HelloWorld from './components/HelloWorld.vue';
 
 export default defineComponent({
@@ -21,7 +22,7 @@ export default defineComponent({
   },
   setup() {
     const store = useStore();
-    console.log(store.state.count);
+    log(store.state.count);
 
     return {
       count: computed(() => store.state.count),
