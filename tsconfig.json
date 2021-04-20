@@ -5,9 +5,12 @@
     "moduleResolution": "node",
     "strict": true,
     "jsx": "preserve",
+    "allowJs": true,
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
     "lib": ["esnext", "dom"],
     "types": ["vite/client"]
   },
