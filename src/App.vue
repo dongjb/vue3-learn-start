@@ -6,6 +6,7 @@
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
   <div>
     <el-button @click="add">count is {{ count }}</el-button>
+    <el-button>点击</el-button>
   </div>
 </template>
 
